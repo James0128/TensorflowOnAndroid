@@ -7,7 +7,8 @@
 
 ### demo的效果
 
-![alt text](http://a1.qpic.cn/psb?/38e96660-07d8-43b4-9295-71f71c58bc55/YedqW6mxBX*OgSOYUeTOV*glgu7.9PYTkIBVG4rHuYY!/b/dPMAAAAAAAAA&bo=gAJxBAAAAAADB9U!&rf=viewer_4)
+![image](https://github.com/James0128/TensorflowOnAndroid/blob/master/detection1.png?raw=true)   
+
 
   从相册里面选取一张照片，之后程序就会识别出图片中的物体，可以看到在该图上面能识别出多个人物、酒杯和餐桌，并用红色的框标识物体的位置，同时在边框的左上角有识别物体的名称。而作为一个人物被识别出来，这不是程序的 bug，只是因为这个模型没有办法识别，可能是缺乏相关的训练数据之类的。我们可以选用识别率更高的模型或者自己训练一个识别器来解决这个问题。
 
